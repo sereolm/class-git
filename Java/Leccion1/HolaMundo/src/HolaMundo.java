@@ -90,7 +90,7 @@ public class HolaMundo {
         var numDouble = 10.0;
         System.out.println("numDouble = " + numDouble);*/
         //Tipos primitivos char
-        char miVariableChar = 'a';
+        /*char miVariableChar = 'a';
         System.out.println("miVariableChar = " + miVariableChar);
 
         char varCaracter = '\u0024';//Indicamos a Java la asignacion con el codigo unicode
@@ -110,7 +110,50 @@ public class HolaMundo {
         int varEnterochar = '$';
         System.out.println("varEnterochar = " + varEnterochar);
         int caracterChar = 'b';
-        System.out.println("caracterChar = " + caracterChar);
+        System.out.println("caracterChar = " + caracterChar);*/
         
+        //Tipos primitivos topos boolean
+        /*var varBool = false;
+        System.out.println("varBool = " + varBool);
+        if(varBool) {
+            System.out.println("La bandera es verde");
+        }
+        else{
+            System.out.println("La bandera es roja");
+        }
+        
+        //Algoritmo: ¿Es mayor de edad?
+        var edad = 18; //Literal tener presente la inferencia de tipos 
+       // var adulto = edad >= 18;
+        if(edad >= 18) {
+            System.out.println("Eres mayor de edad");
     }
-}
+        else{
+            System.out.println("Eres menor de edad");*/
+        
+         //Conversión de tipos primitivos
+        
+        //var edad = Integer.parseInt("20");
+       //System.out.println("edad = " + (edad + 1));
+        //var valorPI = Double.parseDouble("3.1416");
+       //System.out.println("valorPI = " + valorPI);
+        
+        //Pedir un valor
+        var entrada = new Scanner(System.in);
+        //System.out.println("Digite su edad: ");
+        //edad = Integer.parseInt(entrada.nextLine());
+        //System.out.println("edad = " + edad);
+         
+        //Conversion de tipos primitivos en Java parte 2
+        var edadTexto = String.valueOf(10);
+        System.out.println("edadTexto = " + edadTexto);
+         
+        var fraseChar =  "programadores".charAt(0);
+        System.out.println("fraseChar = " + fraseChar);
+        
+        System.out.println("Digite un caracter: ");
+        fraseChar = entrada.nextLine().charAt(0);
+        System.out.println("fraseChar = " + fraseChar);
+        
+        }
+    }
