@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio web</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #222;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color: #f3f3f3;
+        }
+
+        h1 {
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 2rem;
+            color: #333;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            width: 200px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .navigation {
+            display: flex;
+            gap: 3rem;
+            list-style: none;
+            justify-content: center;
+            margin: 2rem 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #007acc;
+            text-decoration: underline;
+            transition: 0.3s;
+        }
+
+        @media (max-width: 600px) {
+            .navigation {
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+                margin: 1rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Serena Olmedo - Técnico en Programación</h1>
+        <img src="Imagenes/ImagenSerena.jpg" alt="Foto de Serena" width="300">
+        <nav>
+            <ul class="navigation">
+                <li><a href="#sobremi">Sobre Mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
