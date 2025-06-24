@@ -850,3 +850,57 @@ PDF(https://drive.google.com/file/d/1qC3_3021ygEk9hczRdzwku0prw3dhQl1/view?usp=s
 <br/ Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.<br/>
 
 <br/ Profesor Ariel Betancud<br/>
+
+
+# CLASE 10-B MIÉRCOLES 11 DE JUNIO DEL 2025 - Portafolio 6
+
+>Cómo funcionan las llaves públicas y privadas
+
+* Sección lectura
+
+Las llaves públicas y privadas, conocidas también como cifrado asimétrico de un solo camino, sirven para mandar mensajes privados entre varios nodos con la lógica de que firmas tu mensaje con una llave pública vinculada con una llave privada que puede leer el mensaje.<br/>
+
+Las llaves públicas y privadas nos ayudan a cifrar y descifrar nuestros archivos de forma que los podamos compartir sin correr el riesgo de que sean interceptados por personas con malas intenciones.<br/>
+
+Cómo funciona un mensaje cifrado con llaves públicas y privadas Ambas personas deben crear su llave pública y privada.<br/>
+
+Ambas personas pueden compartir su llave pública a las otras partes (recuerda que esta llave es pública, no hay problema si la“interceptan”).<br/>
+
+La persona que quiere compartir un mensaje puede usar la llave pública de la otra persona para cifrar los archivos y asegurarse que solo puedan ser descifrados con la llave privada de la persona con la que queremos compartir el mensaje.<br/>
+
+El mensaje está cifrado y puede ser enviado a la otra persona sin problemas en caso de que los archivos sean interceptados.<br/>
+
+La persona a la que enviamos el mensaje cifrado puede emplear su llave privada para descifrar el mensaje y ver los archivos.<br/>
+
+Nota: puedes compartir tu llave pública, pero nunca tu llave privada.<br/>
+
+
+
+
+> PORTAFOLIO
+
+
+Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:<br/>
+
+Dante Nicolás Martinez<br/>
+
+Parte 4:<br/>
+
+Introducción(https://drive.google.com/file/d/1UhpS8jJ9dU5owgWkvXVGVVryosiEV5bJ/view?usp=sharing)
+
+
+
+Práctica(https://drive.google.com/file/d/1rIdJ-s3o4yvJ5WV1hTzKnn1w59DssFcV/view?usp=sharing)
+
+
+
+PDF(https://drive.google.com/file/d/1NTGpKOXqoOG7VMwivEXkyY6BY6hUfc7b/view?usp=sharing)
+
+
+
+
+<br/ La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.<br/>
+
+<br/ Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.<br/>
+
+<br/ Profesor Ariel Betancud<br/>
