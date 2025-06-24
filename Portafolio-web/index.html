@@ -1,78 +1,159 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio web</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #ffffff;
-            color: #222;
-        }
-
-        header {
-            text-align: center;
-            padding: 2rem;
-            background-color: #f3f3f3;
-        }
-
-        h1 {
-            font-family: 'Segoe UI', sans-serif;
-            font-size: 2rem;
-            color: #333;
-        }
-
-        img {
-            display: block;
-            margin: 20px auto;
-            border-radius: 50%;
-            width: 200px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        }
-
-        .navigation {
-            display: flex;
-            gap: 3rem;
-            list-style: none;
-            justify-content: center;
-            margin: 2rem 0;
-            padding: 0;
-        }
-
-        a {
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-        }
-
-        a:hover {
-            color: #007acc;
-            text-decoration: underline;
-            transition: 0.3s;
-        }
-
-        @media (max-width: 600px) {
-            .navigation {
-                flex-direction: column;
-                align-items: center;
-                gap: 1rem;
-                margin: 1rem 0;
-            }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Serena Olmedo" />
+  <meta name="description" content="Portafolio de Serena Olmedo, estudiante de programación web.">
+  <meta name="keywords" content="portafolio, desarrolladora web, programadora, proyectos, contacto" />
+  <title>Portafolio de Serena</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<body>
-    <header>
-        <h1>Serena Olmedo - Técnico en Programación</h1>
-        <img src="Imagenes/ImagenSerena.jpg" alt="Foto de Serena" width="300">
-        <nav>
-            <ul class="navigation">
-                <li><a href="#sobremi">Sobre Mi</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-            </ul>
-        </nav>
-    </header>
+
+<body data-theme="dark">
+  <header>
+    <div class="header-container">
+      <h1 class="titulo">
+        <span class="prompt-left">&gt;</span>
+        Serena Olmedo
+        <span class="prompt-right">&lt;</span>
+      </h1>
+      <p class="subtitulo">Técnico en Programación</p>
+
+      <nav>
+        <ul class="navigation">
+          <li><a href="#sobremi">Sobre Mí</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#estudios">Estudios</a></li>
+          <li><a href="#habilidades">Habilidades Técnicas</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="sobremi" class="sobremi">
+    <div class="container-sobremi">
+      <h2>Sobre Mí</h2>
+      <div class="foto-perfil">
+        <img src="Imagenes/imagenserena.jpg" alt="Foto de Serena Olmedo" />
+      </div>
+      <p>Hola, soy Serena Olmedo, estudiante de la Tecnicatura en Programación. Me apasiona el desarrollo web y disfruto creando soluciones con HTML, CSS y JavaScript.</p>
+    </div>
+  </section>
+
+  <section id="estudios">
+    <h2>Estudios</h2>
+    <ul>
+      <li>Tecnicatura en Programación - En curso</li>
+      <li>Curso de Desarrollo Web - 2023</li>
+    </ul>
+  </section>
+
+  <section id="experiencia">
+    <h2>Experiencia</h2>
+    <ul>
+      <li>2024 - Sitio para diario digital local</li>
+      <li>2023 - Proyecto freelance: sitio para emprendimiento local</li>
+    </ul>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades Técnicas</h2>
+    <div class="habilidades-container">
+      <div class="habilidad">
+        <i class="fab fa-java"></i>
+        <span>Java</span>
+        <div class="barra">
+          <div class="barra-progreso java"></div>
+        </div>
+      </div>
+
+      <div class="habilidad">
+        <i class="fab fa-python"></i>
+        <span>Python</span>
+        <div class="barra">
+          <div class="barra-progreso python"></div>
+        </div>
+      </div>
+
+      <div class="habilidad">
+        <i class="fab fa-js-square"></i>
+        <span>JavaScript</span>
+        <div class="barra">
+          <div class="barra-progreso js"></div>
+        </div>
+      </div>
+
+      <div class="habilidad">
+        <i class="fab fa-css3-alt"></i>
+        <span>CSS</span>
+        <div class="barra">
+          <div class="barra-progreso css"></div>
+        </div>
+      </div>
+
+      <div class="habilidad">
+        <i class="fab fa-github"></i>
+        <span>GitHub</span>
+        <div class="barra">
+          <div class="barra-progreso github"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyectos-grid">
+      <div class="proyecto">
+        <h3>Asistente de estudios</h3>
+        <p>Aplicación en PSeInt para organizar tareas académicas.</p>
+      </div>
+      <div class="proyecto">
+        <h3>Página de ecommerce</h3>
+        <p>Diseño de tienda online con formulario de pedidos.</p>
+      </div>
+      <div class="proyecto">
+        <h3>Portafolio personal</h3>
+        <p>Este mismo sitio web como carta de presentación.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <div class="formulario-container">
+      <iframe 
+        src="https://docs.google.com/forms/d/e/1FAIpQLSeqLha4ZW0h_NfPmAdfOPsqjZIJoaBniDKyJOw1AOdB4GrkPg/viewform?embedded=true"
+        width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">
+        Cargando…
+      </iframe>
+    </div>
+  </section>
+
+  <footer>
+    <div class="redes">
+      <a href="https://github.com/sereolm" target="_blank" aria-label="GitHub" title="GitHub">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      <a href="https://linkedin.com/in/serena-del-valle-olmedo" target="_blank" aria-label="LinkedIn" title="LinkedIn">
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <a href="serenadelvalle25@gmail.com" aria-label="Email" title="Email">
+        <i class="fas fa-envelope" aria-hidden="true"></i>
+      </a>
+    </div>
+    <p>&copy; 2025 - Portafolio creado por Serena Olmedo</p>
+  </footer>
 </body>
 </html>
+
+
+
+
+
+
