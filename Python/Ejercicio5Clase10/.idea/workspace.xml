@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58c78d49-95c7-4525-b459-e879e281a98f" name="Changes" comment="" />
+    <list default="true" id="58c78d49-95c7-4525-b459-e879e281a98f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/Leccion04/04-01-Ejercicios.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/Leccion04/04-01-Ejercicios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioAñoB/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioAñoB/.idea/EjercicioAñoB.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioAñoB/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioAñoB/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioAñoB/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioAñoB/.idea/vcs.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,15 +37,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Ejercicio5.executor": "Run",
-    "Python.Ejercicio7.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Ejercicio5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio7.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sere Olmedo/Tecnicatura/Python/EjercicioAñoB&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.Ejercicio7">
     <configuration name="Ejercicio5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Ejercicio5Clase10" />
