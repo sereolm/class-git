@@ -187,43 +187,51 @@ public class HolaMundo {
         System.out.println("varNum3 = " + varNum3);
         varNum1 %= 6;
         System.out.println("varNum1 = " + varNum1);*/
+ 
+ 
         //Operadores Unarios: Cambio de Signo
         /*var varA = 7;
         var varB = -varA;
         System.out.println("varA = " + varA);
         System.out.println("varB = " + varB);//el resultado sera un numero negativo
-        
+        */
         //Operador de negación
-        var varC = true;//Esta literal por default en java es de tipo boolean 
+        /*var varC = true;//Esta literal por default en java es de tipo boolean 
         var varD = !varC;//aqui esta invirtiendo el valor
         System.out.println("varC = " + varC);
         System.out.println("varD = " + varD);
-        
+        */
         //Operadores unarios de incremento: Preincremento
-        var varE = 9;//Se va a modificar su valor
+        /*var varE = 9;//Se va a modificar su valor
         var varF = ++varE;//simbolo antes de la variable
         //Primero se incrementa la variable y despues se usa su valor
         System.out.println("varE = " + varE);//se incrementa en la unidad
         System.out.println("varF = " + varF);//se va a sumar uno
-        
+        */
         
         //postincremento (el simbolo va despues de la variable)
-        var varG = 3;
+        /*var varG = 3;
         var varH = varG++;//Primero el valor de la variable, luego el incremento
         System.out.println("varG = " + varG);
         System.out.println("varH = " + varH);
+        */
         
-        //Operadores unarios de decremento: Predecemento
-        var varI = 4;
+        
+        //Operadores unarios de decremento: Predecremento
+        /*var varI = 4;
         var varJ = --varI;
         System.out.println("varI = " + varI);//La variable ya esta con decremento
         System.out.println("varJ = " + varJ);
+        */
+        
         
         //PostDecremento
-        var varK = 8;
+        /*var varK = 8;
         var varL = varK--;//Primero el valor es variable, luego queda el decremento
         System.out.println("varK = " + varK);//aqui va a decrementar en 1
-        System.out.println("varL = " + varL);*/
+        System.out.println("varL = " + varL);
+        */
+        
         //Operadores de igualdad y relacionales
         /*var aNum = 5;
         var bNum = 4;
@@ -240,6 +248,8 @@ public class HolaMundo {
         
         var fVar = cadenaA.equals(cadenaB);
         System.out.println("fVar = " + fVar);
+       
+        //Operadores relacionales
         
         var gVar = aNum >= bNum;//> >= < <= == !=
         System.out.println("gVar = " + gVar);
@@ -257,7 +267,10 @@ public class HolaMundo {
         }
         else{
             System.out.println("Es menor de edad");
-        }*/
+        }
+        */
+        //Condicionales
+        
         /*var valorA = 11;
         var valorMinimo = 0;
         var valorMaximo = 10;
@@ -275,6 +288,7 @@ public class HolaMundo {
             System.out.println("Papá puede asistir al juego de su hijo");
         else
             System.out.println("Papá no puede asistir al juego de su hijo");
+        
         */
         
         //Operador ternario
@@ -283,7 +297,8 @@ public class HolaMundo {
         
         var numeroT = 4;
         resultadoT = (numeroT % 2 ==0) ? "Es Par" : "Es Impar";
-        System.out.println("resultadoT = " + resultadoT);*/
+        System.out.println("resultadoT = " + resultadoT);
+        */
         
         var x = 5;
         var y = 10;
