@@ -1,0 +1,185 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f0f4fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* NAV */
+nav {
+  background-color: #4f46e5;
+  padding: 1em 2em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #c7d2fe;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.logo-nav img {
+  height: 40px;
+}
+
+.nombre-equipo {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 2em 1em;
+  background-color: #eef2ff;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 3em;
+  color: #4f46e5;
+}
+
+.descripcion {
+  max-width: 800px;
+  margin: 1em auto;
+  padding: 0 1em;
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* SECCIONES GENERALES */
+section {
+  padding: 3em 1em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: #4f46e5;
+}
+
+/* MIEMBROS */
+.miembros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.miembro {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1em;
+  width: 200px;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  text-align: center;
+}
+
+.miembro:hover {
+  transform: scale(1.05);
+}
+
+.foto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1em auto;
+}
+
+/* BOTÓN PORTAFOLIO */
+.btn-portfolio {
+  display: inline-block;
+  margin-top: 0.8em;
+  padding: 0.4em 0.8em;
+  background-color: #4f46e5;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-portfolio:hover {
+  background-color: #6366f1;
+}
+
+/* LISTA DE PROYECTOS */
+#proyectos ul {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#proyectos li {
+  background-color: #fff;
+  padding: 0.8em;
+  margin-bottom: 0.5em;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* CONTACTO */
+#contacto p {
+  font-size: 1.1em;
+  color: #444;
+}
+
+/* FOOTER */
+footer {
+  background-color: #4f46e5;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
